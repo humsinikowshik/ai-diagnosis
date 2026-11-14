@@ -43,4 +43,11 @@ command resumes an interrupted run; pass `--fresh` to start over. See
 (semantically correct, matches details, substantive addition, grounded in
 evidence, critical error) used to grade the transcripts.
 
+## Multi-turn SFT dataset
+
+`data/sft_multiturn_kept.jsonl` holds 1,309 AgentClinic-style doctor/patient/measurement
+dialogues (Gemma-3-27B doctor) built from MedQA and MedCaseReasoning, filtered to
+correct, grounded diagnoses. See [data/README.md](data/README.md) for how it was built,
+the keep rule, counts and licenses.
+
 *Research code only — not for clinical use.*

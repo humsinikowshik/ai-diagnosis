@@ -5,3 +5,7 @@ __pycache__/
 .venv/
 .env
 .DS_Store
+
+# ...but keep the published dataset
+!data/*.jsonl
+!data/*.csv
