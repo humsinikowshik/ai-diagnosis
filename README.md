@@ -50,4 +50,9 @@ dialogues (Gemma-3-27B doctor) built from MedQA and MedCaseReasoning, filtered t
 correct, grounded diagnoses. See [data/README.md](data/README.md) for how it was built,
 the keep rule, counts and licenses.
 
+## On-policy distillation
+
+`distillation/` trains Gemma 4 E4B on its own AgentClinic-style interviews, coached
+token by token by Gemma 4 26B-A4B. See [distillation/README.md](distillation/README.md).
+
 *Research code only — not for clinical use.*
